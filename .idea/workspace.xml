@@ -20,41 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7530e856-95c7-4dc4-9688-a87a9e543602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_8_19_20__8_21_PM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a9892927-d8da-448b-b7d9-d3dd6127bb22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a9892927-d8da-448b-b7d9-d3dd6127bb22/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_0000003_create_headhunter_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_0000004_create_blog_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_0000001_create_workers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_0000002_create_skeels_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Headhunters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/HeadhunterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/HeadhunterSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -166,17 +143,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gKJtNLS0RuzjRog1Qlre9fjT9X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -184,9 +164,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/database/migrations" />
     </key>
   </component>
@@ -204,7 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597857564329</updated>
-      <workItem from="1597857565583" duration="6138000" />
+      <workItem from="1597857565583" duration="6369000" />
+      <workItem from="1599065512608" duration="2179000" />
     </task>
     <servers />
   </component>
@@ -221,6 +204,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1656" y="27" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597857838032">
@@ -228,22 +215,22 @@
     </state>
     <state x="315" y="111" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1440.873/1440.0.1600.900@0.27.1440.873" timestamp="1597857611270" />
     <state x="1656" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857838032" />
-    <state width="1554" height="225" key="GridCell.Tab.0.bottom" timestamp="1597857665356">
+    <state width="1554" height="225" key="GridCell.Tab.0.bottom" timestamp="1597905873329">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="225" key="GridCell.Tab.0.bottom/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857665356" />
-    <state width="1554" height="225" key="GridCell.Tab.0.center" timestamp="1597857665356">
+    <state width="1554" height="225" key="GridCell.Tab.0.bottom/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905873329" />
+    <state width="1554" height="225" key="GridCell.Tab.0.center" timestamp="1597905873329">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="225" key="GridCell.Tab.0.center/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857665356" />
-    <state width="1554" height="225" key="GridCell.Tab.0.left" timestamp="1597857665355">
+    <state width="1554" height="225" key="GridCell.Tab.0.center/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905873329" />
+    <state width="1554" height="225" key="GridCell.Tab.0.left" timestamp="1597905873329">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="225" key="GridCell.Tab.0.left/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857665355" />
-    <state width="1554" height="225" key="GridCell.Tab.0.right" timestamp="1597857665356">
+    <state width="1554" height="225" key="GridCell.Tab.0.left/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905873329" />
+    <state width="1554" height="225" key="GridCell.Tab.0.right" timestamp="1597905873329">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="225" key="GridCell.Tab.0.right/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857665356" />
+    <state width="1554" height="225" key="GridCell.Tab.0.right/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905873329" />
     <state x="1996" y="278" width="477" height="377" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1597905433063">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>

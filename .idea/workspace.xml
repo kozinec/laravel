@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7530e856-95c7-4dc4-9688-a87a9e543602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Headhunters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/HeadhunterFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/HeadhunterSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597857564329</updated>
       <workItem from="1597857565583" duration="6369000" />
-      <workItem from="1599065512608" duration="2179000" />
+      <workItem from="1599065512608" duration="2372000" />
+      <workItem from="1599111935311" duration="689000" />
     </task>
     <servers />
   </component>

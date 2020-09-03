@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+
+    nginx:
+        build:
+            context: ./docker/nginx
+        volumes:
+            - ./:/app
+        ports:
+            - "8180:80"
+        depends_on:
+            - php-fpm
+
+    php-fpm:
+        build:
+            context: ./docker/php
+        volumes:
+            - ./:/app
+        depends_on:
+            - mysql
+
+    mysql:
+        image: mysql:5.7
+        environment:
+#            - "MYSQL_ROOT_PASSWORD=root"
+#            - "MYSQL_USER=app"
+#            - "MYSQL_PASSWORD=secret"
+            - MYSQL_ROOT_PASSWORD=password
+#            - "MYSQL_DATABASE=app"
+        volumes:
+            - /home/andriikozynets/docker/mysql/hillel:/var/lib/mysql
+#            - mysql:/var/lib/mysql
+        ports:
+            - "3306:3306"
+
+#    redis:
+#        image: redis:alpine
+#        ports:
+#          - 6379:6379
+
+#volumes:
+#  mysql:
+#      driver: local

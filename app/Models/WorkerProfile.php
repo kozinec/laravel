@@ -12,9 +12,9 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $last_name
  * @property Carbon $birthday
  */
-class UserProfile extends Model
+class WorkerProfile extends Model
 {
-    protected $table = 'users_profile';
+    protected $table = 'workers_profile';
 
     public $timestamps = false;
 

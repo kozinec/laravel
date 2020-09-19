@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7530e856-95c7-4dc4-9688-a87a9e543602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_15_161054_create_workers_profile_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/WorkerSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9892927-d8da-448b-b7d9-d3dd6127bb22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9892927-d8da-448b-b7d9-d3dd6127bb22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/UserProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/WorkerProfile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/WorkerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +195,10 @@
       <updated>1597857564329</updated>
       <workItem from="1597857565583" duration="6369000" />
       <workItem from="1599065512608" duration="2372000" />
-      <workItem from="1599111935311" duration="689000" />
+      <workItem from="1599111935311" duration="884000" />
+      <workItem from="1599307803409" duration="1657000" />
+      <workItem from="1600185086391" duration="5656000" />
+      <workItem from="1600510335325" duration="5592000" />
     </task>
     <servers />
   </component>
@@ -212,11 +221,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1656" y="27" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597857838032">
+    <state x="1656" y="27" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600190162752">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="315" y="111" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1440.873/1440.0.1600.900@0.27.1440.873" timestamp="1597857611270" />
     <state x="1656" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597857838032" />
+    <state x="1656" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1600.900/0.27.1440.827@1440.0.1600.900" timestamp="1600190162752" />
+    <state x="527" y="27" width="606" height="827" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600524794606">
+      <screen x="0" y="27" width="1600" height="827" />
+    </state>
+    <state x="527" y="27" width="606" height="827" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1600.827@0.27.1600.827" timestamp="1600524794606" />
+    <state x="1967" y="27" width="526" height="827" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.0.1600.900/0.27.1440.827@1440.0.1600.900" timestamp="1600190682321" />
+    <state x="2023" y="198" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600185153389">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state x="2023" y="198" width="424" height="491" key="FileChooserDialogImpl/1440.0.1600.900/0.27.1440.827@1440.0.1600.900" timestamp="1600185153389" />
     <state width="1554" height="225" key="GridCell.Tab.0.bottom" timestamp="1597905873329">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
@@ -233,9 +252,17 @@
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state width="1554" height="225" key="GridCell.Tab.0.right/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905873329" />
+    <state x="2097" y="329" width="362" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600190454599">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state x="2097" y="329" width="362" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1440.0.1600.900/0.27.1440.827@1440.0.1600.900" timestamp="1600190454599" />
     <state x="1996" y="278" width="477" height="377" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1597905433063">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="1996" y="278" width="477" height="377" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1597905433063" />
+    <state x="492" y="27" width="679" height="827" key="find.popup" timestamp="1600519294525">
+      <screen x="0" y="27" width="1600" height="827" />
+    </state>
+    <state x="492" y="27" width="679" height="827" key="find.popup/0.27.1600.827@0.27.1600.827" timestamp="1600519294525" />
   </component>
 </project>

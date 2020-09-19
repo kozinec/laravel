@@ -14,9 +14,9 @@ use Illuminate\Notifications\Notifiable;
  * @property string $name
  * @property string $email
  *
- * @property UserProfile $profile
+ * @property WorkerProfile $profile
  */
-class User extends Authenticatable
+class Worker extends Authenticatable
 {
     use Notifiable;
 
@@ -51,11 +51,12 @@ class User extends Authenticatable
 
     public function profile(): HasOne
     {
-        return $this->hasOne(UserProfile::class, 'user_id', 'id');
+        return $this->hasOne(WorkerProfile::class, 'user_id', 'id');
     }
 
-    public function blogs(): BelongsToMany
+    public function blogs(): HasMany
     {
-        return $this->belongsToMany(Blog::class);
+#        return $this->belongsToMany(Blog::class);
+        return $this->hasMany(Blog::class);
     }
 }

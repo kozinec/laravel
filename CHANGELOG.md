@@ -268,7 +268,7 @@
 
 ### Added
 - Hint for lenient log stacks ([#4918](https://github.com/laravel/laravel/pull/4918))
-- Attribute casting for `email_verified_at` on `User` model stub ([#4930](https://github.com/laravel/laravel/pull/4930))
+- Attribute casting for `email_verified_at` on `Worker` model stub ([#4930](https://github.com/laravel/laravel/pull/4930))
 
 ### Changed
 - Remove unused Bootstrap class ([#4917](https://github.com/laravel/laravel/pull/4917))

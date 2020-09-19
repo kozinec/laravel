@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Models;
 
 use Carbon\Carbon;
+
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -52,7 +53,7 @@ class Blog extends Model
     public function user(): HasOne
     {
 //        return $this->hasOne(User::class, 'id', 'user_id');
-        return $this->hasOne(User::class, 'id', 'user_id');
+        return $this->hasOne(Worker::class, 'id', 'user_id');
     }
 
     public function tags(): BelongsToMany
